@@ -4,7 +4,7 @@ import { projectIcon } from "@/components/Icons";
 import { accentHex } from "@/components/accent";
 
 export const metadata = {
-  title: "Projects — CAT-DID Lab",
+  title: "Projects | CAT-DID Lab",
   description:
     "Research projects on HFMD, influenza, leptospirosis, air pollution, and human mobility networks.",
 };
@@ -15,7 +15,7 @@ export default function ProjectsPage() {
       <PageHeader
         eyebrow="Research"
         title="Projects"
-        subtitle="Each project links a climate or environmental signal to the transmission dynamics of disease — and turns the result into something usable."
+        subtitle="Each project links a climate or environmental signal to the transmission dynamics of disease, then turns the result into something usable."
       />
 
       <section className="mx-auto max-w-6xl px-4 space-y-8">

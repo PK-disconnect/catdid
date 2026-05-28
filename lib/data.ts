@@ -117,7 +117,7 @@ export const STUDENTS: Person[] = [
     role: "Undergraduate, B.Sc. Physics (in progress)",
     funding: "DPST Scholarship Recipient",
     focus:
-      "Physical and statistical aspects of climate and air pollution — environmental statistics, data analysis, atmospheric science.",
+      "Physical and statistical aspects of climate and air pollution: environmental statistics, data analysis, atmospheric science.",
     email: "narathipssri@gmail.com",
     photo:
       "https://lh3.googleusercontent.com/sitesv/AA5AbUD6LRCt5zflnNyAUNWCfaNmSlMEJFYHgSnJepzee52fdw2GEio5HYQM0umLHgrVFkshXXIoCKx6NsvjS_PJlNoC2YYwQlavmmRQQWeKtDx2Ra4VKAuNBaxP_wA7vndSROaKWEGh7RSLTqfSS7ihij7u5OBW8GkbdGTpN3YSOzw7CokMzhooXz85w8q6V5-eJGLkuAXldISTE220x3q0nXGhH10Onyq1892662s=w400",
@@ -149,7 +149,7 @@ export const STUDENTS: Person[] = [
 export const ALUMNI: Person[] = [
   {
     name: "Sumet Khumphairan",
-    role: "Alumnus — Leptospirosis Model Internship",
+    role: "Alumnus, Leptospirosis Model Internship",
     focus:
       "Now at the Institute of Applied Mathematics, Heidelberg University, Germany.",
     email: "sumet.khumphairan@gmail.com",
@@ -159,7 +159,7 @@ export const ALUMNI: Person[] = [
   },
   {
     name: "Watcharapong Yospunya",
-    role: "Alumnus — Web Development Internship",
+    role: "Alumnus, Web Development Internship",
     education: ["B.Eng. Computer Engineering (CPE), Naresuan University"],
     email: "yospunyaporto@gmail.com",
     photo:
@@ -168,7 +168,7 @@ export const ALUMNI: Person[] = [
   },
   {
     name: "Thepthat Boonbumrung",
-    role: "Alumnus — Machine Learning Engineer Internship",
+    role: "Alumnus, Machine Learning Engineer Internship",
     education: ["B.Eng. Computer Engineering (CPE), Naresuan University"],
     email: "thepthat.work@gmail.com",
     photo:
@@ -177,7 +177,7 @@ export const ALUMNI: Person[] = [
   },
   {
     name: "Kiattiwat Srinuankhao",
-    role: "Alumnus — Web Development Internship",
+    role: "Alumnus, Web Development Internship",
     education: [
       "B.Eng. Innovation Intelligence Engineering (IIE), Naresuan University",
     ],
@@ -189,7 +189,7 @@ export const ALUMNI: Person[] = [
   },
   {
     name: "Amontep Thaisri",
-    role: "Alumnus — Machine Learning Engineer Internship",
+    role: "Alumnus, Machine Learning Engineer Internship",
     education: ["B.Eng. Computer Engineering (CPE), Naresuan University"],
     email: "amontep.ne@gmail.com",
     photo:
@@ -260,7 +260,7 @@ export const PROJECTS: Project[] = [
     summary:
       "A two-year study addressing the complexity of infectious-disease spread through human movement.",
     findings:
-      "Year one builds a Bangkok mobility model incorporating public transport, statistical physics, and socio-economic and weather factors. Year two applies this network to influenza and dengue spread — because simple mathematical models fail to capture the complexity of movement-driven transmission.",
+      "Year one builds a Bangkok mobility model incorporating public transport, statistical physics, and socio-economic and weather factors. Year two applies this network to influenza and dengue spread, because simple mathematical models fail to capture the complexity of movement-driven transmission.",
   },
 ];
 
@@ -362,7 +362,7 @@ export const ACTIVITIES: Activity[] = [
   {
     title: "Friday Group Meeting",
     blurb:
-      "Our recurring lab meeting — students and staff share progress, discuss models, and review new literature together.",
+      "Our recurring lab meeting where students and staff share progress, discuss models, and review new literature together.",
     accent: "lavender",
     icon: "calendar",
   },

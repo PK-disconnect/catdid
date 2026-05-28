@@ -47,7 +47,7 @@ export default function Home() {
               {LAB.tagline}
             </p>
             <p className="mt-3 text-sm text-ink-soft">
-              {LAB.acronym} — {LAB.full}.
+              {LAB.acronym}: {LAB.full}.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/projects" className="neu-btn px-6 py-3 text-accent">
@@ -145,7 +145,7 @@ export default function Home() {
           </h2>
           <p className="mt-4 text-ink-soft max-w-2xl mx-auto leading-relaxed">
             We host a workshop (in Thai and English) covering fundamental concepts
-            through real-world applications — including R₀ and Rₜ estimation.
+            through real-world applications, including R₀ and Rₜ estimation.
           </p>
           <div className="mt-8 flex flex-wrap gap-3 justify-center">
             <Link href="/activities" className="neu-btn px-6 py-3 text-accent">

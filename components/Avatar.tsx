@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { accentHex, initials } from "./accent";
 
 export default function Avatar({
@@ -15,9 +15,15 @@ export default function Avatar({
   size?: number;
 }) {
   const [failed, setFailed] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
   const hex = accentHex(accent);
   const inner = size - 10;
   const showPhoto = photo && !failed;
+
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth === 0) setFailed(true);
+  }, [photo]);
 
   return (
     <span
@@ -28,6 +34,7 @@ export default function Avatar({
       {showPhoto ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
+          ref={imgRef}
           src={photo}
           alt=""
           loading="lazy"

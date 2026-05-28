@@ -175,7 +175,7 @@ export default function SignalTracker() {
       </div>
 
       <p className="mt-4 text-[11px] text-ink-soft/80 italic">
-        Illustrative preview — figures are stylized to demonstrate the lab&apos;s
+        Illustrative preview: figures are stylized to demonstrate the lab&apos;s
         modeling focus, not live surveillance data.
       </p>
     </div>

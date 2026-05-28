@@ -19,7 +19,7 @@ const mono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CAT-DID Lab — Climate, Air Pollution & Disease Dynamics",
+  title: "CAT-DID Lab | Climate, Air Pollution & Disease Dynamics",
   description:
     "CAT-DID studies how climate and air pollution shape infectious disease interactions, transmission dynamics, and air-quality risks. Department of Physics, Naresuan University.",
 };

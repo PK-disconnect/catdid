@@ -2,7 +2,7 @@ import PageHeader from "@/components/PageHeader";
 import { PUBLICATIONS } from "@/lib/data";
 
 export const metadata = {
-  title: "Publications — CAT-DID Lab",
+  title: "Publications | CAT-DID Lab",
   description: "Peer-reviewed publications from the CAT-DID Lab, 2015–2026.",
 };
 
@@ -14,7 +14,7 @@ export default function PublicationsPage() {
       <PageHeader
         eyebrow="Output"
         title="Publications"
-        subtitle={`${total} peer-reviewed works on infectious-disease modeling, climate, and air pollution — spanning 2015 to 2026.`}
+        subtitle={`${total} peer-reviewed works on infectious-disease modeling, climate, and air pollution, spanning 2015 to 2026.`}
       />
 
       <section className="mx-auto max-w-4xl px-4 space-y-8">

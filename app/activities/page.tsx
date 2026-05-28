@@ -4,7 +4,7 @@ import { activityIcon } from "@/components/Icons";
 import { accentHex } from "@/components/accent";
 
 export const metadata = {
-  title: "Activities — CAT-DID Lab",
+  title: "Activities | CAT-DID Lab",
   description: "Meetings, conferences, summer schools, and gatherings of the CAT-DID Lab.",
 };
 
@@ -14,7 +14,7 @@ export default function ActivitiesPage() {
       <PageHeader
         eyebrow="Lab life"
         title="Activities"
-        subtitle="From weekly group meetings to international summer schools — the moments that keep the team curious and connected."
+        subtitle="From weekly group meetings to international summer schools: the moments that keep the team curious and connected."
       />
 
       <section className="mx-auto max-w-5xl px-4">

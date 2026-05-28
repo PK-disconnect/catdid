@@ -3,7 +3,7 @@ import PersonCard from "@/components/PersonCard";
 import { STAFF, STUDENTS, ALUMNI } from "@/lib/data";
 
 export const metadata = {
-  title: "People — CAT-DID Lab",
+  title: "People | CAT-DID Lab",
   description: "Staff, students, and alumni of the CAT-DID Lab at Naresuan University.",
 };
 
