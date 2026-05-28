@@ -6,8 +6,9 @@ export type Person = {
   focus?: string;
   funding?: string;
   email?: string;
-  scholar?: boolean;
+  scholarUrl?: string;
   github?: string;
+  photo?: string;
   note?: string;
   accent: string;
 };
@@ -46,7 +47,9 @@ export const STAFF: Person[] = [
     research:
       "Infectious disease dynamics, computational biophysics, climate-sensitive infectious diseases, machine learning and deep learning.",
     email: "sudaratc@nu.ac.th",
-    scholar: true,
+    scholarUrl: "https://scholar.google.co.th/citations?hl=en&user=m69EB_EAAAAJ",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUBGvu1LXNlgPo51C3Jw4979nyie6hSEB9kZtL6kxrJbBGWQMEVlescJASSruSC1hv2wcuHUV1bNPpntcyhh8bf2kIpRDeXDkyCeOw_qzZQ_qryTcMVyChGe4WuTZYfamGhLyIM4-VCtCSXfaVP2Xqwtytx2VPwoVZlURMdNgAdgA6TTTn0u7WrqVu5nYzk6rIdNUTawipjoUGuvOCxx625n1LnCAldgUaw7=w400",
     accent: "lavender",
   },
   {
@@ -60,7 +63,9 @@ export const STAFF: Person[] = [
     research:
       "Toxicology, biomarkers, enzyme purification for pesticide-exposure assessment, immunoassay, monoclonal & polyclonal antibody production, climate change and air pollution.",
     email: "sthiphom@gmail.com",
-    scholar: true,
+    scholarUrl: "https://scholar.google.com/citations?user=8-51KT0AAAAJ&hl=en",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUAGgef0eZlBNbTTVqAAAI_iETyFhCcrWO5Ac8rRawUU1T5zqnn0CH-aq2Cj0QtKe7t4N5tr3plWR7CmuVxbeoeMjAVz-E3DUZ90A8Xr9sg06n3YuXQgsDW5HPNEhWatIXSafj_es7loVj72EQUiTgGohpr0jszyf1_awTUB81IG5PgU4Aay_DYHHy6Jjm-38_01sDPuqzSX8XrDX1QvJDTZiRP49LNaZROmi7E=w400",
     accent: "mint",
   },
   {
@@ -73,7 +78,9 @@ export const STAFF: Person[] = [
     research:
       "Climate change and air pollution, AI for chemical analysis, nonlinear chemical dynamics, infectious disease dynamics.",
     email: "suparinthona@nu.ac.th",
-    scholar: true,
+    scholarUrl: "https://scholar.google.com/citations?user=4qN4zlwAAAAJ&hl=en",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUBaceFjnSSbum7Tj3CZNXG2Mm6VaXSWFwXP0mLIrMoy4zY29fFJXJmozeSJMoRC-JbCd7mD2wE1gCdQ3mBRBLVNtADrkkxW2oIgZqOhs0MiR4fOylFO_BDPo2I4JxE84SIS-SIwrrtX0OjXDy1MP-OAm7j0dS13zLGtmBM8YgxUwETOpN1sajzej-iAq72xUz3vi9Hq8pQ9k5P2aUYdim_FxMUmpsPeGGX9=w400",
     accent: "sky",
   },
 ];
@@ -86,6 +93,8 @@ export const STUDENTS: Person[] = [
     focus:
       "Computational modeling, network simulations, and machine learning for physical systems.",
     email: "pkkh.lonlab@gmail.com",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUCJLblS0yuG-02XilZ4j5vRk6vm60B8XRxC8wK-Nuvwf2aWIxeO3pzT5WHLlGvONMi3HBA7nl_H1sNfBVxMJVB4TRyX0FbKHEcpIbyj30XJ2meFYJ-MLQMK8CBz9gwkJQhcB3IatmWRyq76neSAMhb6tkUXQ9bB4Wo52wMGvN6bqQkALSxR4TB0Cmsu2P8cQ-HatMetERnkrVOnU43R4zErJ6u7OwV0jK4Xr8s=w400",
     accent: "blush",
   },
   {
@@ -99,6 +108,8 @@ export const STUDENTS: Person[] = [
     focus:
       "Network-based infectious disease models using origin–destination matrices. Former intern, Laboratory of Quantum Information Science.",
     email: "thiraphat.trp68@gmail.com",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUDRjG0pmT1WVU9MXHSCyuEsH4iD35N2oxWtyHCp4Mf8SKfQ4ZqKI673soKx7r2ueTL5s7DpwuNbENSU1me_V5A2iDg63wbCf_1NFAkwiM9peDNA38t0Kodl_ByoqUWAbiJEb2dmi99Rab4QqFUL3r30DufO3SOB2CzwkAzC5BBFh4GB7iw-xEGpykk1sBTnfzdDSEp47TdyXKlgl9IASBGgvNS8uuhxwjvPYR8=w400",
     accent: "peach",
   },
   {
@@ -108,6 +119,8 @@ export const STUDENTS: Person[] = [
     focus:
       "Physical and statistical aspects of climate and air pollution — environmental statistics, data analysis, atmospheric science.",
     email: "narathipssri@gmail.com",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUD6LRCt5zflnNyAUNWCfaNmSlMEJFYHgSnJepzee52fdw2GEio5HYQM0umLHgrVFkshXXIoCKx6NsvjS_PJlNoC2YYwQlavmmRQQWeKtDx2Ra4VKAuNBaxP_wA7vndSROaKWEGh7RSLTqfSS7ihij7u5OBW8GkbdGTpN3YSOzw7CokMzhooXz85w8q6V5-eJGLkuAXldISTE220x3q0nXGhH10Onyq1892662s=w400",
     accent: "butter",
   },
   {
@@ -117,6 +130,8 @@ export const STUDENTS: Person[] = [
       "Epidemiological modeling and computer simulations. Skills: R, C++, SIR/SEIR models.",
     github: "https://github.com/MamamuuR1zz/HFMD-SEIR-Model",
     email: "sawittaa66@nu.ac.th",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUBsF2Hg_UnSWuXysRIQ_tfbQ3sOA7LdhKXrM6jVbUHcbQwUvM2XUmvIiHKMwdEOeXomBDEd33l9cHmIJpM09BwmX1IbJyijNGFgtH6R1nPAbp3jChGe5dyqufDEFK-z5KIRtkm98LlEjcPjtUmyk7FH3CqQrYJx2JykiYn4t_SWHFwT1ZCiXhFp-KDBxLueCt6FzFwdCdQINRLjGovlgrXr7pcQvzTZRB8HlCM=w400",
     accent: "lavender",
   },
   {
@@ -125,6 +140,8 @@ export const STUDENTS: Person[] = [
     focus:
       "Seasonal dynamics of Hand, Foot, and Mouth Disease (HFMD) in Thailand using a compartmental SEIRS model. Skills: R programming, data analysis.",
     email: "thanatchaporn.nt@gmail.com",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUDGdzSDrfCtFQxmiMKT6MjiCxizJAD8zfFe12uTA23UGrw5FZHvpX0kIjADDB5IxBrzJ15LkLQDzJuqjSCB6pohmneMXRSN2UfSy80fsAvFdxNO1w1n1CKAmH9DuL-TpeRcYhINSVk9xygitpYm0QT5WHct_vWbrzyUYCxrBirPJ1b7MnMFHnmj7M4MwtxmKyuiJeyjqVu_WLouIO8WLrdDUU2ZeSyaE90V7Ms=w400",
     accent: "mint",
   },
 ];
@@ -136,6 +153,8 @@ export const ALUMNI: Person[] = [
     focus:
       "Now at the Institute of Applied Mathematics, Heidelberg University, Germany.",
     email: "sumet.khumphairan@gmail.com",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUBTKC2550rcXYroydUnARosCWY8fAxP7GYDQZMiybJ6aYbt7yiQa5TInF6V9k91BfxpX30q40evQPvw0iVBU9OvW5mdws-9LpQAI-jQSYUC30yrv1Wgw_YPOYYRfPu6ucTnTgGURzOZcYoAfwotwF7P0xYc7ejqTvKSAE9akdf8xRdK_oQkB3t-brrJhRjvT242-1KNdNVfdux9p9XUineFwFQLMecn2Amltmk=w400",
     accent: "sky",
   },
   {
@@ -143,6 +162,8 @@ export const ALUMNI: Person[] = [
     role: "Alumnus — Web Development Internship",
     education: ["B.Eng. Computer Engineering (CPE), Naresuan University"],
     email: "yospunyaporto@gmail.com",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUA5A3eCe5mbs17YRFkkmWLGRZlO_K1I2sGzky86JspNKceNJFSrnfoIBXfyed3eOMldzi_m0Ks5SrQQYmVhwHxQE_5PF9jo3NckhrbME-gAWbRD_0pJbMZ1pVYxRG5MhPBWcM8Dpmd9LAU1nfb2kDC4qb_rDkkJ-YvQo2S4DYDlxjUcp7NjNGsGrLx8Zpq61R03TDCHSNisZpe0E9WvuVR7dY88PMydfJYs6aE=w400",
     accent: "blush",
   },
   {
@@ -150,6 +171,8 @@ export const ALUMNI: Person[] = [
     role: "Alumnus — Machine Learning Engineer Internship",
     education: ["B.Eng. Computer Engineering (CPE), Naresuan University"],
     email: "thepthat.work@gmail.com",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUBOEv1XUhAMNjyv-9qbriVU2_ItwSdEeJREXSO_GQdJn8cJHzRooFkb5AxhYVwtmHXk3oseCvrVNre6KWfQwGQp1Px2BXj6pZpaVeSC1wgzwqvfDnpABi-BJTpq-huNUTRBLdEf9F06Aa9pe3LcK2DZ4UE8IiZ0Y2a--FZXaW6k7tO54r9a06Cb2bIE3jJeOLpDJ7BX1GkofPWCeFtCgr5lp_v3VwuA9u8d=w400",
     accent: "peach",
   },
   {
@@ -160,6 +183,8 @@ export const ALUMNI: Person[] = [
     ],
     note: "Original website creator.",
     email: "kiattiwatsrinuankhao@gmail.com",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUAuCQ1yv8ypVU9YNKbxGNSMnPskPc_WG2Gk9T9BtQflypsrKdaoUV23nAUecM10xtgza3abCOoZBdUzlAYdjERNEW8fQ0Y2-GQBQ-0eW7xq98hNCweN7tNvnW8ivneSDfEOl9Gh6GTo64QvS0xvg_fuKNb5I9dNigR5p6FZkRvqMhPJWQKJEONuGtH8CylhEaO45XFYSSmRLa3TtmYMuasaCv-dcc_a7DG_PMg=w400",
     accent: "butter",
   },
   {
@@ -167,6 +192,8 @@ export const ALUMNI: Person[] = [
     role: "Alumnus — Machine Learning Engineer Internship",
     education: ["B.Eng. Computer Engineering (CPE), Naresuan University"],
     email: "amontep.ne@gmail.com",
+    photo:
+      "https://lh3.googleusercontent.com/sitesv/AA5AbUBpnWVoiNLVnbobDbmXPAAD2-KlNrwhVxYYJdz3TqlQ0whhwUtXhbSdRA9evra68aVv8YZ9N2qgubXKo4Xkkr84sb-6Ld-94Pw4QOnP9t99kbOu6XKHZnLFT8n6UzptfNGv5KW53q6MWDWFrg_k4qUulTl2xLQHNBG2cp--9E1YIlOr4Eq8TE98bKo3lIgfum1uFjyST1GpAsO08s5zPck4cJ8XCa_IrPcor3k=w400",
     accent: "lavender",
   },
 ];

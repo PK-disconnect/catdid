@@ -6,7 +6,7 @@ export default function PersonCard({ person }: { person: Person }) {
   return (
     <article className="neu-card p-6 flex flex-col gap-4 h-full">
       <header className="flex items-center gap-4">
-        <Avatar name={person.name} accent={person.accent} />
+        <Avatar name={person.name} accent={person.accent} photo={person.photo} />
         <div className="min-w-0">
           <h3 className="font-semibold text-ink leading-snug">{person.name}</h3>
           <p className="text-sm text-accent font-medium">{person.role}</p>
@@ -47,14 +47,17 @@ export default function PersonCard({ person }: { person: Person }) {
             <Mail />
           </a>
         )}
-        {person.scholar && (
-          <span
-            aria-label="Google Scholar profile available"
+        {person.scholarUrl && (
+          <a
+            href={person.scholarUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${person.name} on Google Scholar`}
             title="Google Scholar"
-            className="grid place-items-center w-9 h-9 rounded-full bg-surface shadow-neu-sm p-2.5 text-ink-soft"
+            className="grid place-items-center w-9 h-9 rounded-full neu-btn p-2.5 text-ink-soft hover:text-accent"
           >
             <Scholar />
-          </span>
+          </a>
         )}
         {person.github && (
           <a
